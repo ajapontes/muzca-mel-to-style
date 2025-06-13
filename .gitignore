@@ -1,0 +1,40 @@
+# === ARCHIVOS Y CARPETAS A IGNORAR ===
+
+# 1. Carpeta del entorno virtual
+.venv/
+env/
+venv/
+
+# 2. Checkpoints y modelos exportados
+#checkpoints/
+#*.pt
+
+# 3. Resultados y métricas
+#results/
+#*.json
+#*.csv
+
+# 4. Archivos de datos (locales)
+data/
+*.npz
+*.zip
+*.h5
+
+# 5. Imágenes generadas automáticamente
+#images/
+#*.png
+#*.jpg
+
+# 6. Logs y respaldos
+#logs/
+#backups/
+#*.log
+
+# 7. Archivos temporales y del sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
