@@ -1,0 +1,14 @@
+{
+    "model_class": "RandomForestClassifier",
+    "framework": "scikit-learn",
+    "model_params": {
+        "random_state": 42,
+        "n_estimators": 100,
+        "class_weight": "balanced"
+    },
+    "extra_info": {
+        "seed": 42,
+        "cv_folds": 5,
+        "test_size": 0.2
+    }
+}

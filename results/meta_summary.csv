@@ -1,0 +1,7 @@
+Campo,Valores únicos,Tipo de dato,Muestras no nulas
+drummer,9,object,16539
+style,74,object,16539
+session,21,object,16539
+bpm_orig,73,float64,16539
+filename,1004,object,16539
+bar_index,306,int64,16539
